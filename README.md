@@ -1,6 +1,8 @@
-#1.HCV Stage Prediction (HCV_Research.ipynb)
+# 1.HCV Stage Prediction (HCV_Research.ipynb)
+
 This project predicts the stages of Hepatitis C Virus (HCV) infection Blood Donor, Suspect Blood Donor, Hepatitis, Fibrosis, and Cirrhosis — using clinical and biochemical parameters from the Hepatitis C Prediction dataset. The study implements both Machine Learning and Deep Learning techniques for accurate disease staging.
-Features:
+
+**Features:**
 Data Preprocessing:
 Missing value handling, duplicate removal, irrelevant column drop (Unnamed: 0), label encoding, one-hot encoding, and class balancing using SMOTE.
 Models Used:
