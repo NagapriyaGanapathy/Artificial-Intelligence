@@ -78,4 +78,37 @@ The dataset has 555,719 records with 22 features and no missing values.
 **Result:**  
 **Random Forest Classifier** performed best with strong accuracy and recall.
 
+---
+
+### 4. SMS Spam Detection using Deep Learning (DeepLearning.ipynb)
+
+This project detects spam SMS messages using Deep Learning models powered by BERT embeddings.  
+It compares three neural network architectures to identify spam (1) vs ham (0) messages accurately.
+
+**Overview:**
+- Built a system to classify SMS as Spam or Ham using text-based features.
+- Used BERT for contextual word embeddings instead of TF-IDF.
+- Trained three models:
+  1. BERT + GRU  
+  2. BERT + LSTM  
+  3. BERT + Bidirectional LSTM  
+
+**Data Preparation:**
+- Cleaned text: lowercasing, removing punctuation/numbers, stopwords, and lemmatization.  
+- Added extra features (message length, word count, keyword counts).  
+- Handled class imbalance using SMOTE.
+
+**Results Summary:**
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+|--------|-----------|------------|----------|-----------|
+| BERT + GRU | 94.53% | 0.74 | 0.91 | 0.82 |
+| **BERT + LSTM** | **96.14%** | **0.82** | **0.91** | **0.86** |
+| BERT + Bi-LSTM | 90.04% | 0.58 | 0.97 | 0.72 |
+
+**Conclusion:**
+- **BERT + LSTM** achieved the best overall performance with 96.14% accuracy.  
+- **BERT + Bi-LSTM** had the highest recall but lower precision.  
+- Using BERT embeddings significantly improved model accuracy compared to traditional TF-IDF methods.
+
 
