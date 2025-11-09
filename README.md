@@ -26,3 +26,32 @@ The study implements both Machine Learning and Deep Learning techniques for accu
 
 The **Stacking Classifier** achieved the highest accuracy of **94.07%**, outperforming Random Forest and other models.
 
+---
+
+### 2. Adult Income Prediction (CA2ML_Individual.ipynb)
+
+This project predicts whether a person’s annual income exceeds **$50,000** using demographic and employment data from the **Adult dataset**.  
+It applies **Logistic Regression**, **Decision Tree**, and **Random Forest** models, along with **ensemble methods** and **PCA** for improved performance.
+
+**Overview:**
+- Dataset: 32,561 records with demographic & work attributes  
+- Target: Income level (`>50K` or `<=50K`)  
+- Preprocessing: Missing value handling, encoding, feature selection, and scaling  
+
+**Models & Techniques:**
+- **Logistic Regression** – best performing model (~84% accuracy)  
+- **Decision Tree & Random Forest** – tested with cross-validation  
+- **Ensemble Methods:** Bagging, Boosting (AdaBoost), and Stacking  
+- **PCA Feature Extraction:** Improved Logistic Regression accuracy (from 80% → 84%)  
+
+**Results Summary:**
+
+| Model | Feature Extraction | Accuracy |
+|--------|--------------------|-----------|
+| Logistic Regression | With PCA | **84%** |
+| Logistic Regression | Without PCA | 80% |
+
+**Conclusion:**
+Logistic Regression with **PCA** provided the best and most interpretable results.  
+The study highlights how ensemble and feature extraction techniques enhance model robustness and accuracy.
+
