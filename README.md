@@ -28,7 +28,7 @@ The **Stacking Classifier** achieved the highest accuracy of **94.07%**, outperf
 
 ---
 
-### 2. Adult Income Prediction (CA2ML_Individual.ipynb)
+### 2. Adult Income Prediction (Adult_Income_Prediction.ipynb)
 
 This project predicts whether a person’s annual income exceeds $50,000 using demographic and employment data from the Adult dataset.  
 It applies Logistic Regression, Decision Tree, and Random Forest models, along with ensemble methods and PCA for improved performance.
