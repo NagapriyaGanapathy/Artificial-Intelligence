@@ -30,12 +30,12 @@ The **Stacking Classifier** achieved the highest accuracy of **94.07%**, outperf
 
 ### 2. Adult Income Prediction (CA2ML_Individual.ipynb)
 
-This project predicts whether a person’s annual income exceeds **$50,000** using demographic and employment data from the **Adult dataset**.  
-It applies **Logistic Regression**, **Decision Tree**, and **Random Forest** models, along with **ensemble methods** and **PCA** for improved performance.
+This project predicts whether a person’s annual income exceeds $50,000 using demographic and employment data from the Adult dataset.  
+It applies Logistic Regression, Decision Tree, and Random Forest models, along with ensemble methods and PCA for improved performance.
 
 **Overview:**
 - Dataset: 32,561 records with demographic & work attributes  
-- Target: Income level (`>50K` or `<=50K`)  
+- Target: Income level (`>50K` or `<=50K`)
 - Preprocessing: Missing value handling, encoding, feature selection, and scaling  
 
 **Models & Techniques:**
@@ -52,6 +52,30 @@ It applies **Logistic Regression**, **Decision Tree**, and **Random Forest** mod
 | Logistic Regression | Without PCA | 80% |
 
 **Conclusion:**
-Logistic Regression with **PCA** provided the best and most interpretable results.  
+Logistic Regression with PCA provided the best and most interpretable results.  
 The study highlights how ensemble and feature extraction techniques enhance model robustness and accuracy.
+
+---
+
+### 3. Credit Card Fraud Detection (Fraud_detection.ipynb)
+
+This project detects fraudulent credit card transactions using machine learning.  
+The dataset has 555,719 records with 22 features and no missing values.
+
+**Target:** `is_fraud` → (1 = Fraudulent, 0 = Legitimate)
+
+**Models Used:**
+- Logistic Regression  
+- Decision Tree  
+- Random Forest  
+- Gaussian Naive Bayes  
+
+**Process:**
+- Fixed data leakage by encoding after train-test split  
+- Improved accuracy and recall with better sampling and feature handling  
+- Removed unhelpful features and retained key outlier patterns
+
+**Result:**  
+**Random Forest Classifier** performed best with strong accuracy and recall.
+
 
