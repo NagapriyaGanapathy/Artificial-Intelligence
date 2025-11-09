@@ -111,4 +111,25 @@ It compares three neural network architectures to identify spam (1) vs ham (0) m
 - **BERT + Bi-LSTM** had the highest recall but lower precision.  
 - Using BERT embeddings significantly improved model accuracy compared to traditional TF-IDF methods.
 
+  ---
+
+  ### 5. Game Playing Agent – Ms. Pac-Man using Reinforcement Learning
+
+This project trains an agent to play Ms. Pac-Man using Q-Learning and Deep Q-Network (DQN) algorithms.  
+The goal is to maximize game scores by learning the best actions through rewards and penalties.
+
+**Overview:**
+- Environment: MsPacman-v4 (OpenAI Gym)  
+- Algorithms: Q-Learning | DQN | Monte Carlo  
+- Hyperparameters tuned: learning rate, discount factor, epsilon  
+
+**Findings:**
+- Q-Learning gave higher and more stable rewards than DQN.  
+- DQN showed larger variance and lower average performance.  
+
+**Conclusion:**  
+Q-Learning performed best for Ms. Pac-Man, proving simpler reinforcement methods can outperform deep models when tuned well.
+
+
+
 
