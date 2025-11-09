@@ -35,7 +35,7 @@ It applies Logistic Regression, Decision Tree, and Random Forest models, along w
 
 **Overview:**
 - Dataset: 32,561 records with demographic & work attributes  
-- Target: Income level (`>50K` or `<=50K`)
+- Target: Income level (>50K or <=50K)
 - Preprocessing: Missing value handling, encoding, feature selection, and scaling  
 
 **Models & Techniques:**
@@ -62,7 +62,7 @@ The study highlights how ensemble and feature extraction techniques enhance mode
 This project detects fraudulent credit card transactions using machine learning.  
 The dataset has 555,719 records with 22 features and no missing values.
 
-**Target:** `is_fraud` → (1 = Fraudulent, 0 = Legitimate)
+**Target:** is_fraud → (1 = Fraudulent, 0 = Legitimate)
 
 **Models Used:**
 - Logistic Regression  
